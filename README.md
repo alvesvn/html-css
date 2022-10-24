@@ -1,6 +1,6 @@
 <p align="center"> <img src="https://user-images.githubusercontent.com/96539606/197426991-609b4b60-8603-4ea2-94ee-112480e050ba.png" alt="logo-repositorio" /> </center>
 
-<p align="center"><strong> Curso de HTML5 e CSS3 - Curso em Vídeo - Prof. Gustavo Guanabara.</strong></center>
+<h1 align="center"><strong> Curso de HTML5 e CSS3 - Curso em Vídeo.</strong></center></h1>
 
 
 <p align="center"> Este repositório foi criado para resolver os exercícios e desafios do curso de <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target: _blank> HTML5 e CSS3 </a> da plataforma Curso em Vídeo - Prof. Gustavo Guanabara. </strong></center>
