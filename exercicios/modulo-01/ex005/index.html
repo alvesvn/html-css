@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listas</title>
+</head>
+<body>
+  <h1>Trabalhando com Listas</h1>
+  <h2>Listas Ordenadas (ORDER LIST "OL")</h2>
+  <p>Listas ordenadas são a tag "OL" order list</p>
+  <ol type="a">
+    <li>Acordar</li>
+    <li>Tomar café</li>
+    <li>Ligar para o João</li>
+
+  </ol>
+  <p>De acordo com o HTML5, o "/LI" (fechamento da tag "LI") se tornou opcional.
+  <br>
+  Também temos a opção type na tag "OL", para organizar a lista de acordo com o seu gosto, por exemplo: 
+  <br>
+  <br>
+  Se utilizar o "a ou A" no type, a lista será organizada em (a,b,c,d,e). 
+  <br>
+  <br>
+  Se colocarmos o "I ou i", a lista ficara em romanos (I, II, III, IV, V, VI)
+  </p>
+  <br>
+  <h2>Lista não ordenadas (UNORDERED LIST "UL")</h2>
+  <p>Uma lista não ordenada, o próprio nome já diz, não tem uma sequência.</p>
+
+  <ul type="circle">
+    <li>Acordar</li>
+    <li>Tomar um banho</li>
+    <li>Ir treinar</li>
+    <li>Limpar a casa</li>
+    <li>Estudar</li>
+  </ul>
+
+  <p>Também temos alguns estilos para esse tipo de lista, podemos alterar o formado acrescentando um type na tag ul" e adicionando os valores circle, disc,square.</p>
+
+
+  <h2>Listas mistas</h2>
+  <p>Tipo de listas onde temos vários níveis</p>
+  <h3>Minhas linguagens favoritas</h3>
+  <ol>
+    <li><strong>Antigas</strong></li>
+    <ol type="a">
+        <li>Clipper</li>
+        <li>Visual Basic</li>
+        <li>Fortran</li>
+        <li>Delphi</li>
+    </ol>
+      <li><strong>Novas</strong></li>
+    <ol type="a" start="5">
+      <li>PHP</li>
+      <li>Phyton</li>
+      <li>JavaScript</li>
+      <li>Kotlin</li>
+    </ol>
+  </ol>
+  <p>Utilizamos o type, para caracterizar o tipo da lista e o <strong>start</strong> para dar continuidade no alfabeto.</p>
+  <br>
+  <h2>Filmes favoritos</h2>
+  <ol>
+    <li>Terror</li>
+    <ul>
+      <li>A bruxa</li>
+      <li>O exorcista</li>
+      <ul type="square">
+        <li>O exorcista clássico</li>
+        <li>O exorcismo de Emilly Rose</li>
+      </ul>
+      <li>O albergue</li>
+    </ul>
+    <li>Suspense</li>
+    <ol>
+      <li>Doce vingança</li>
+    </ol>
+    <li>Romance</li>
+    <ol>
+      <li>Call me by your name</li>
+      <li>Moonlight</li>
+    </ol>
+  </ol>
+  <br>
+  <br>
+  <h2>Lista de definição</h2>
+  <dl>
+    <dt>Termo</dt>
+    <dd>Descrição</dd>
+  </dl>
+  <dl>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação para a criação de conteúdo de um site.</dd>
+  </dl>
+  <dl>
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação para a criação do design de um site.</dd>
+  </dl>
+  <dl>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+  </dl>
+  
+</body>
+</html>

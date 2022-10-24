@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vídeos com HTML5</title>
+</head>
+<body>
+  <h1>Inserindo vídeos hospedados localmente</h1>
+  <p>Este vídeo está hospedado no meu príprio servidor. Para isso, use a tag "video" e assim como a tag "audio" temos algumas propriedades, como:
+  <ul>
+    <li>Autoplay</li>
+    <li>Controls</li>
+    <li>Width</li>
+    <li>Poster - indica a capa do vídeo</li>
+    <li>Loop</li>
+  </ul>
+  </p>
+  <video src="midia/meu-video.mp4" autoplay controls width="300"></video>
+  <br>
+  <h2>Adicionando diversos vídeos de acordo com o padrão do navegador</h2>
+  <p>Agora iremos aprender como colcoar em ordem os vídeos e seus formatos para que ele rode na maior quantidade de navegadores possíveis. Utilizando a tag "video" e "source", devemos escolher em ordem de cima para baixo.</p>
+
+  <video width="300" controls autoplay loop>
+    <source src="midia/meu-video.mp4" type="video/mp4">
+    <source src="midia/meu-video.m4v" type="video/mp4">
+    <source src="midia/meu-video.webm" type="video/webm">
+    <source src="midia/meu-video.ogv" type="video/ogg"> 
+    <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>  
+  </video>
+  <br>
+  <h1>Incorporação de vídeos externos</h2>
+    <h2>Inserindo vídeos do youtube</h2>
+    <p>Esse tipo de incorporação de vídeo não consome muito e não gera gastos.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>Inserindo vídeos do vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/192231443?h=772bcd0273&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

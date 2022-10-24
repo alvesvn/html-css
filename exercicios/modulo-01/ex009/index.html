@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhando com Links</title>
+</head>
+<body>
+  <h1>Usando links externos</h1>
+  <p>Link que vai apontar para outro site. </p>
+  <p>Você pode acessar o <a href="https://github.com/alvesvn" target="_blank" rel="external">meu repositório público no GitHub</a>. </p>
+  <p>Sempre é recomendado usar o "target:_blank" e o "rel="external".</p>
+  <br>
+  <h2>Usando links internos</h2>
+  <p>Link que vai fazer uma relação com outra página que esta dentro do nosso servidor.</p>
+  <p>Está é a primeira página do site, se você quiser pode visitar a minha <a href="pag002.html" rel="next">segunda página</a>.</p>
+  <p>Lembre-se que temos o o rel e seus atributos: 
+    <ul>
+      <li>External</li>
+      <li>Prev</li>
+      <li>Next</li>
+      <li>Nofollow</li>
+    </ul> 
+    Propriedades target 
+    <ul>
+      <li>_blank</li>
+      <li>self</li>
+    </ul>
+  </p>
+  <p>Para caminhar entre as páginas utilize: 
+    <ul>
+      <li> tag "a" no href "./" ou ctrl+espaço</li>
+      <li>Para voltar algumas pastas coloque "../" dois pontos</li>
+    </ul>
+  </p>
+  <p>Você também pode acessar a nossa <a href="noticias/pag003.html">página de notícias.</a>
+  </p>
+  <br>
+  <br>
+  <h1>Links para download</h1>
+  <p>Para baixar e fazer download do arquivo basta você selecionar e adicionar ele no href o para download.</p>
+  <ul>
+    <li><a href="./livros/Guia_Front-End_-_O_caminho_das_pedras_para_ser_um_dev_Front-End_Casa_do_CodigoPortuguese_z-lib.org.pdf" type="application/pdf" target="_blank">Baixar o livro em PDF</a></li>
+    <li><a href="./livros/Guia_Front-End_-_O_caminho_das_pedras_para_ser_um_dev_Front-End_Casa_do_CodigoPortuguese_z-lib.org.rar" type="application/zip">Livro compactado em ZIP</a></li>
+  </ul>
+</body>
+</html>
