@@ -1,0 +1,24 @@
+* {
+  background-color: black;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white
+}
+
+.conteudo-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo-secundario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
