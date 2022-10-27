@@ -13,7 +13,7 @@ Evitar contrastes, pois causa cansaço visual.
 
 **TABELA DAS CORES E SUAS ASSOCIAÇÕES** 
 
-![psicologia-das-cores](C:\Users\alves\OneDrive\Área de Trabalho\github-alvesvn\html-css\anotacoes-pessoais\psicologia-das-cores.png)
+![psicologia-das-cores](C:\Users\alves\OneDrive\Área de Trabalho\github-alvesvn\html-css\anotacoes-pessoais\images\psicologia-das-cores.png)
 
 
 
@@ -21,7 +21,7 @@ Evitar contrastes, pois causa cansaço visual.
 
 
 
-![classificacao-das-cores](C:\Users\alves\OneDrive\Área de Trabalho\github-alvesvn\html-css\anotacoes-pessoais\classificacao-das-cores.jpg)
+![classificacao-das-cores](C:\Users\alves\OneDrive\Área de Trabalho\github-alvesvn\html-css\anotacoes-pessoais\images\classificacao-das-cores.jpg)
 
 
 
