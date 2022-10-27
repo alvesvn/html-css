@@ -13,16 +13,11 @@ Evitar contrastes, pois causa cansaço visual.
 
 **TABELA DAS CORES E SUAS ASSOCIAÇÕES** 
 
-![psicologia-das-cores](C:\Users\alves\OneDrive\Área de Trabalho\github-alvesvn\html-css\anotacoes-pessoais\images\psicologia-das-cores.png)
-
-
+![image](https://user-images.githubusercontent.com/96539606/198409616-e25113de-2753-43bc-9aea-7cc76fc56cb1.png)
 
 ## Classificação das Cores
 
-
-
-![classificacao-das-cores](C:\Users\alves\OneDrive\Área de Trabalho\github-alvesvn\html-css\anotacoes-pessoais\images\classificacao-das-cores.jpg)
-
+![image](https://user-images.githubusercontent.com/96539606/198409521-e7307a03-27f1-4003-b395-9a71c48c81ce.png)
 
 
 ## Adobe Color
