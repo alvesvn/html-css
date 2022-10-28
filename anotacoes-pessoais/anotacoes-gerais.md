@@ -66,3 +66,25 @@ Nesse site, é possível:
 
 
 
+## Tipografia 
+
+- Parte da produção dos livros eram feitos por Monges Copistas.
+- Necessidade de criar letras mais fáceis de ler
+- Surge nossos estudos sobre tipografia - melhorar visualização, legibilidade das letras
+- **TIPO** - Týpos - impressão
+- **GRAFIA** - Graphía - escrita
+- **Tipografia**: é o estudo de como vou escrever coisas no papel, mas atualmente em telas!   
+
+
+
+### Anatomia das Letras 
+
+- Letra "x" ponto de partida para desenhar as outras fontes, defini a altura base.    
+
+- Serifa: são pequenos traços nos finais das letras.
+
+  - Cria uma linha imaginária que o nosso cérebro percebe, facilitando a leitura.
+
+- Filete: duas hastes e um arco.   
+
+  
