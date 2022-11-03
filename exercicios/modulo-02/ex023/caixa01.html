@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelos de Caixas</title>
+  <style>
+    h1{
+      /*
+      SIMPLIFICANDO COM SHORTHANDS
+
+      border-width: 10px;
+      border-style: solid;
+      border-color: darkgray;
+
+      tudo isso, fica assim:
+      border: 10px solid darkgray;
+      
+      
+      */
+      background-color: blueviolet;
+      height: 300px;
+      width: 300px;
+      border: 10px solid darkgray;
+
+      /*
+      UTILIZANDO O SHORTHAND NO PADDING
+      CÓDIGO ANTERIOR:
+          padding-top: 10px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+          padding-left: 10px;
+      
+          FICARA ASSIM: 
+          padding:: 10px 10px 10px 10px
+      */
+      padding: 10px 10px 10px 10px;
+
+      /* Quando colocamos 04 valores, temos a seguinte ordem: 
+            1 - cima
+            2 - direita
+            3 - baixo 
+            4 - esquerda
+            
+        Quando colocamos apenas dois valores (ex: 10px 10px;), temos a seguinte ordem: 
+            1 - cima e baixo ficam iguais 
+            2 - esquerda e direita ficam iguais
+
+
+      */
+
+
+
+      /*
+      Aprendendo a mexer na margin.
+      margin:auto - faz com que o caixa se centralize automáticamente; - SE FOR UMA CAIXA - SE FOR UM TEXTO: text-align: center.
+
+       margin: auto;
+
+      Outline: fica dentro da margin, entre a margin e a borda. 
+      Um tracejado que fica dentro da margin, pode estrapolar a margin mas ele não aumenta e diminui a margin.
+
+      */
+
+      margin-top: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      
+      /*SIMPLIFICANDO MARGIN (SHORTHANDS)
+        Podemos colocar auto; que calcula a margin automaticamente para centralizar
+      */
+      margin: 20px auto 40px auto; 
+
+
+      outline-width: 5px;
+      outline-style: dashed;
+      outline-color: aqua;
+
+      /*SIMPLIFICANDO OUTLINE*/
+      outline: 5px dashed aqua; 
+    
+    }
+
+    a{
+      border-width: 10px;
+      border-style: solid;
+      border-color: red; 
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+
+    }
+
+
+
+  </style>
+</head>
+<body>
+  <h1>Exemplo de caixa box-level</h1>
+  <p>Parágrafos também são exemplos de box-level, mas os <a href="#">Links são exemplos de caixas inline-level</a> Vamos ver como tudo isso funciona </p>
+  
+</body>
+</html>

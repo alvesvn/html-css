@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fontes em CSS</title>
+  <style>
+    
+    body{
+      font-family:'Courier New', Courier, monospace;
+    }
+
+    h1, h2 {
+      font-family:'Times New Roman', Times, serif;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ANOTAÇÕES: 
+    Existem varias formas de colocar o tamanho da fonte 
+
+    - MEDIDAS ABSOLUTAS:
+      cm, mm, in(polegada), px (pixel), pt(ponto), pc(paica) - recomendado: PX.
+      ponto e paica -> não se recomenda utilizar, geralmente utilizado em material impresso.
+
+    - MEDIDAS RELATIVAS:
+      em(altura relativo ao M maiúsculo), ex (relativo a altura X), rem, vw(view-widht), vh, %
+
+    - RECOMENDAÇÕES:
+      Para medidas de fonte são recomendados pelo WTC:
+            - PX
+            - EM
+      O W3C é uma organização internacional de padrões que desenvolve os pilares de tecnologias Web tais como HTML, CSS, SVG, XML e WCAG. O IDPF desenvolveu o padrão. 
+
+      MEDIDA DO WORD é em ponto (pc) - impresso.
+
+      Qual a diferença de PX para EM?
+       16px geralmente é = 1em
+
+       Se vc tem 1em é igual a 16px
+       Se vc tem 2em é igual a 32px (dobro)
+       EM - funciona em dobro. 
+
+       De acordo com a aula, é melhor usar o EM - por conta da versatilidade de telas. 
+       Mas podemos usar o PX ou EM. 
+
+       Peso da fonte: fonte mais fina ou mais grossa.
+       Para ver o peso da fonte precisamos usar outras fontes, por que elas já tem um peso declarado. 
+       
+      Peso da fonte = font-weight
+      Largura da fonte = font-width
+      Altura da fonte = font-height
+      Estilos para fonte = font-style
+
+      PESOS DE FONTES:
+      normal, lighter, bold, bolder. 
+
+      do normal (fino) até o mais pesado (grosso)
+      Também temos valores numéricos: 100, 200, 300, até 900. (aperte crtl+ space e tera as opções)
+      
+      FONT-STYLE:
+      Você escolher se quer itálico, negrito, normal.
+
+      TEXT-DECORATION: 
+      Você pode acrescer o sublinhado.  
+
+      SHORTHAND FONT (ordem):
+      1. font-style:
+      2. font-weight:
+      3. font-size:
+      4. font-family
+
+    EX: 
+      font: italic bolder 3em 'Work Sans', sans-serif;
+      ISSO É UM EXEMPLO DE SHORTHAND - tudo em uma linha.
+
+  -->
+  <h1>Trabalhando com Fontes</h1>
+  <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nostrum assumenda sunt inventore quos repellendus saepe odit corrupti. Corporis obcaecati, sint repellendus dolorem placeat tempora pariatur molestias officia nulla doloremque!
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi maxime consectetur harum accusantium. Harum, laboriosam accusamus. Magnam iure atque, tenetur unde quis praesentium nesciunt culpa reprehenderit mollitia veniam expedita minus?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tenetur dolore maxime ut, dolor fugit esse quia quod, repudiandae magni soluta cumque. Consequatur accusantium necessitatibus nobis, eaque velit dolore! Alias.
+  </p>
+  <h2>Subtítulo do exercício</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio odit consequatur mollitia esse quasi itaque distinctio cum molestiae facere, eos suscipit, adipisci voluptates officiis consectetur minima libero autem in. Neque.
+  </p>  
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalizando Links</title>
+  <style>
+
+    /*  TABELA DE INSTRUÇÕES:
+            #  = ID
+            .  = CLASS
+            :  = PSEUDO-CLASS
+            :: = PSEUDO-ELEMENT
+            >  = CHILDREN (ELEMENTO FILHO)
+    
+    
+    */
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    a{
+      color: red;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    /*Altera a cor de links já visitados*/
+    a:visited{
+      color: rgb(200, 59, 162);
+    }
+  
+    /*Para alterar a cor e tirar o sublinhando */
+    a:hover{
+      color:black;
+      text-decoration: underline;
+    }
+
+    /*Efeito que altera cor ao clicar no link*/
+    a:active{
+      color: yellow;
+    }
+
+    /*Propriedade para indicar o nome no link*/
+    a::before{
+      content: '=>';
+    }
+    a::after{
+      content: '<=';
+      text-decoration: none;
+      font-weight: normal;
+      color: darkgray;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Personalizando Links</h1>
+  <ul>
+    <li><a href="https://github.com/alvesvn" target="_blank">Repositório GitHub</a></li>
+    <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22">Canal do Youtube</a></li>
+    <li><a href="https://www.cursoemvideo.com">Site do CursoemVideo</a></li>
+  </ul>
+  
+</body>
+</html>
