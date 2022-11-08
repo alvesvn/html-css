@@ -9,30 +9,86 @@
   <style>
     body{
       font-family: Arial, Helvetica, sans-serif;
-      background-color: aqua;
+      background-color: rgb(94, 92, 92);
       margin: 0px;
     }
+
     header{
-      background-color: yellowgreen;
+      background-color: rgb(255, 255, 255);
       padding: 10px;
       margin: 10px;
     
+    }
+    
+    /*Aprendendo a trabalhar com sombras no CSS 
+    Logo abaixo temos a propriedade box-shadow
+    os valores 1pxhorizontal 1px vertical, 1px espalhamento e cor da sombra (sempre black)
+    Temos também a sombra inset, a sombra fica pra dentro. 
+
+    */
+    nav{
+      background-color: rgb(92, 92, 92);
+      padding: 3px;
+      box-shadow: 2px 3px 7px 1px black
+    }
+
+    nav > a {
+      text-decoration: underline;
+      color: white;
+      font-weight: bold;
+      margin-right: 30px;
+
+    }
+
+    nav > a:hover{
+      text-decoration: underline;
     }
 
     main{
-      background-color: yellowgreen;
+      background-color: rgb(255, 255, 255);
       padding: 10px;
       margin: 10px;
+      border-radius:4px;
+      /*BORDER-RADIUS
+    
+      
+      Podemos configurar assim:
+      border-radius: 10px 20px 30px 40px; 
+
+      Nesse tipo de configuração, o border-radius vai seguir a seguinte ordem abaixo:  
+      TOP-LEFT - cima(esquerda)
+      TOP-RIGHT - cima (direita)
+      BOTTOM-RIGHT - baixo (direta)
+      BOTTOM-LEFT - baixo (esquerda)
+
+      Podemos configurar tbm apenas com dois parametros:
+      Exemplo: 
+      border-radius: 10px 20px; 
+      Também podemos acrescer sombra nas bordas, elas tbm ficam arredondadas. 
+
+      */
     
     }
 
+    article{
+      background-color: rgb(229, 224, 224);
+    }
+
+    article > aside{
+      background-color: rgb(229, 228, 228);
+    }
+
     footer{
-      background-color: red;
+      background-color: rgb(0, 0, 0);
       color: white;
       text-align: center;
-      padding: 1px;
+      padding: 4px;
       margin: 0px;
 
+    }
+
+    footer > p{
+      margin: 0px;
     }
   </style>
 </head>
@@ -55,6 +111,7 @@
   <main>
     <!--Section conteúdos do site -->
     <section id="assuntos">
+      Esporte, Política e Tecnologia
     </section>
     
     <section id="noticias">
