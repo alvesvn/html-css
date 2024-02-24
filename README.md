@@ -4,5 +4,3 @@
 
 
 <p align="center"> Esse repositório foi criado para resolver os exercícios e desafios do curso de HTML5 e CSS3 da plataforma Curso em Vídeo - Prof. Gustavo Guanabara.</strong></center>
-<p align="center"><a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank">Você pode ter acesso ao curso completo e gratuito clicando aqui.</a></center>
-<p align="center">
