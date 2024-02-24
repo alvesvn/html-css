@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://user-images.githubusercontent.com/96539606/197426991-609b4b60-8603-4ea2-94ee-112480e050ba.png" alt="logo-repositorio" /> </center>
+<p align="center"> <img src="https://user-images.githubusercontent.com/96539606/197426991-609b4b60-8603-4ea2-94ee-112480e050ba.png" alt="logo-repositorio" height="100" widht="100" /> </center>
 
 <h1 align="center"><strong> Curso de HTML5 e CSS3.</strong></center></h1>
 
